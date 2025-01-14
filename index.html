@@ -69,7 +69,16 @@
           </ul>
 
           <!-- Start of Form -->
-          <form action="#">
+          <form
+            method="POST"
+            action="https://formsubmit.co/dbfcpark@gmail.com"
+            enctype="multipart/form-data"
+          >
+            <input
+              type="hidden"
+              name="_next"
+              value="https://dbfcrun.netlify.app/payment.html"
+            />
             <!-- image upload -->
             <div class="form-group">
               <label for="image-upload">Upload Your Image:</label>
@@ -79,7 +88,7 @@
                   class="custom-file-input"
                   id="image-upload"
                   name="image-upload"
-                  accept="image/*"
+                  accept="image/png, image/jpeg"
                 />
                 <label class="custom-file-label" for="image-upload"
                   >Choose an image</label
