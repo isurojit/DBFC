@@ -1,0 +1,128 @@
+/* Body and Main Container */
+body {
+  background-color: #ff5e57; /* Vibrant background color */
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-size: 18px; /* Increased overall font size */
+}
+
+/* Checklist styles */
+.checklist {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.checklist li {
+  display: flex;
+  align-items: center;
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.8);
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.checklist li i {
+  font-size: 22px;
+  color: #ff5e57;
+  margin-right: 12px;
+}
+
+.checklist li p {
+  margin: 0;
+  font-size: 16px; /* Larger font size */
+}
+
+/* Form styles */
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+  font-size: 18px; /* Larger font size for inputs */
+}
+
+/* Submit Button */
+.submit-btn {
+  background-color: #ff5e57;
+  color: white;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  font-size: 18px; /* Increased font size for button */
+}
+
+.submit-btn:hover {
+  background-color: #e04e48;
+}
+
+.content {
+  background-color: #fff;
+}
+/* Default Styles (for larger screens) */
+.sticky-sidebar {
+  padding: 1.5rem;
+}
+
+.sticky-sidebar h3,
+.sticky-sidebar h4,
+.sticky-sidebar h5 {
+  font-size: inherit; /* Keep default font size */
+}
+
+.sticky-sidebar img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Mobile and Tablet Devices */
+@media (max-width: 991px) {
+  /* Tablet and smaller */
+  .sticky-sidebar {
+    padding: 1rem;
+  }
+
+  .sticky-sidebar h3 {
+    font-size: 1.5rem; /* Reduce font size for h3 */
+  }
+
+  .sticky-sidebar h4 {
+    font-size: 1rem; /* Reduce font size for h4 */
+  }
+
+  .sticky-sidebar h5 {
+    font-size: 0.9rem; /* Reduce font size for h5 */
+  }
+
+  .sticky-sidebar img {
+    max-width: 80%; /* Reduce image size */
+  }
+}
+
+@media (max-width: 767px) {
+  /* Mobile devices */
+  .sticky-sidebar {
+    padding: 0.8rem;
+  }
+
+  .sticky-sidebar h3 {
+    font-size: 1.2rem; /* Further reduce font size for h3 */
+  }
+
+  .sticky-sidebar h4 {
+    font-size: 0.9rem; /* Further reduce font size for h4 */
+  }
+
+  .sticky-sidebar h5 {
+    font-size: 0.8rem; /* Further reduce font size for h5 */
+  }
+
+  .sticky-sidebar img {
+    max-width: 70%; /* Further reduce image size */
+  }
+}

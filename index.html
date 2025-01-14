@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Deshbandhu Park Friend's Circle || Running Event</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div
+      class="container-fluid d-flex align-items-center justify-content-center bg-danger p-4"
+    >
+      <div class="row w-100">
+        <!-- Sidebar -->
+        <div
+          class="col-md-4 col-sm-12 p-4 bg-dark text-white sticky-sidebar text-center"
+        >
+          <img src="./img/logo.png" alt="logo" class="img-fluid mb-3" />
+          <h3 class="text-center">Deshbandhu Park Friend's Circle</h3>
+          <h5>Sponsored By</h5>
+          <img
+            src="./img/uthsav_logo.png"
+            alt="sponsored"
+            class="img-fluid mb-3"
+          />
+          <h4>157, Aurobindo Sarani, Kolkata - 700006</h4>
+          <h4>9830241410 / 8420025999</h4>
+        </div>
+
+        <!-- Content -->
+        <div class="col-md-8 col-sm-12 p-4 content">
+          <h3 class="text-center">APPLICATION FORM</h3>
+          <p class="text-center">
+            Please fill up the form in CAPITAL letters only.
+          </p>
+
+          <h5>Check List</h5>
+          <ul class="list-unstyled checklist">
+            <li>
+              <i class="material-icons">check_circle</i>
+              <p>Fully read the information?</p>
+            </li>
+            <li>
+              <i class="material-icons">check_circle</i>
+              <p>Chosen your race category (any one)?</p>
+            </li>
+            <li>
+              <i class="material-icons">check_circle</i>
+              <p>
+                Affixed your recent passport sized photograph with face clearly
+                visible?
+              </p>
+            </li>
+            <li>
+              <i class="material-icons">check_circle</i>
+              <p>
+                Attached a photocopy of your latest Liming certificate if
+                applicable?
+              </p>
+            </li>
+          </ul>
+
+          <!-- Start of Form -->
+          <form action="#">
+            <!-- image upload -->
+            <div class="form-group">
+              <label for="image-upload">Upload Your Image:</label>
+              <div class="custom-file">
+                <input
+                  type="file"
+                  class="custom-file-input"
+                  id="image-upload"
+                  name="image-upload"
+                  accept="image/*"
+                />
+                <label class="custom-file-label" for="image-upload"
+                  >Choose an image</label
+                >
+              </div>
+            </div>
+            <!-- Race Category (Radio Buttons for Single Selection) -->
+            <div class="form-group">
+              <label>Race Category: (Select any one)</label>
+              <div class="d-flex">
+                <div class="form-check mr-4">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    id="5k-run"
+                    name="race-category"
+                    value="5K Run"
+                  />
+                  <label class="form-check-label" for="5k-run">5K Run</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    id="5k-walk"
+                    name="race-category"
+                    value="5K Walk"
+                  />
+                  <label class="form-check-label" for="5k-walk">5K Walk</label>
+                </div>
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label>T-Shirt Size:</label>
+              <div class="form-group">
+                <label>T-Shirt Size:</label>
+                <!-- Radio Buttons in a Horizontal Row -->
+                <div class="form-check form-check-inline">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    id="xs"
+                    name="t-shirt-size"
+                    value="XS"
+                  />
+                  <label class="form-check-label" for="xs">XS</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    id="s"
+                    name="t-shirt-size"
+                    value="S"
+                  />
+                  <label class="form-check-label" for="s">S</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    id="m"
+                    name="t-shirt-size"
+                    value="M"
+                  />
+                  <label class="form-check-label" for="m">M</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    id="l"
+                    name="t-shirt-size"
+                    value="L"
+                  />
+                  <label class="form-check-label" for="l">L</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    id="xl"
+                    name="t-shirt-size"
+                    value="XL"
+                  />
+                  <label class="form-check-label" for="xl">XL</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    id="xxl"
+                    name="t-shirt-size"
+                    value="XXL"
+                  />
+                  <label class="form-check-label" for="xxl">XXL</label>
+                </div>
+                <div class="form-check form-check-inline">
+                  <input
+                    type="radio"
+                    class="form-check-input"
+                    id="xxxl"
+                    name="t-shirt-size"
+                    value="XXXL"
+                  />
+                  <label class="form-check-label" for="xxxl">XXXL</label>
+                </div>
+
+                <!-- Table for Size Information (without radio buttons) -->
+                <div class="table-responsive mt-3">
+                  <table class="table table-bordered">
+                    <thead>
+                      <tr>
+                        <th>T-Shirt Size</th>
+                        <th>Front/Back Length (inches)</th>
+                        <th>Shoulder to Shoulder (inches)</th>
+                        <th>Chest Width (inches)</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <!-- XS -->
+                      <tr>
+                        <td>XS</td>
+                        <td>26.4"</td>
+                        <td>15.9"</td>
+                        <td>37"</td>
+                      </tr>
+
+                      <!-- S -->
+                      <tr>
+                        <td>S</td>
+                        <td>27.4"</td>
+                        <td>16.7"</td>
+                        <td>39.4"</td>
+                      </tr>
+
+                      <!-- M -->
+                      <tr>
+                        <td>M</td>
+                        <td>28.3"</td>
+                        <td>17.5"</td>
+                        <td>41.7"</td>
+                      </tr>
+
+                      <!-- L -->
+                      <tr>
+                        <td>L</td>
+                        <td>29.3"</td>
+                        <td>18.3"</td>
+                        <td>44.9"</td>
+                      </tr>
+
+                      <!-- XL -->
+                      <tr>
+                        <td>XL</td>
+                        <td>30.3"</td>
+                        <td>19.1"</td>
+                        <td>48"</td>
+                      </tr>
+
+                      <!-- XXL -->
+                      <tr>
+                        <td>XXL</td>
+                        <td>31.3"</td>
+                        <td>19.9"</td>
+                        <td>51.2"</td>
+                      </tr>
+
+                      <!-- XXXL -->
+                      <tr>
+                        <td>XXXL</td>
+                        <td>32.3"</td>
+                        <td>20.7"</td>
+                        <td>52.3"</td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+
+            <!-- Personal Information -->
+            <div class="form-group">
+              <label for="first-name">First Name:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="first-name"
+                name="first-name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="last-name">Last Name:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="last-name"
+                name="last-name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="address">Address:</label>
+              <textarea
+                class="form-control"
+                id="address"
+                name="address"
+                rows="3"
+                required
+              ></textarea>
+            </div>
+
+            <div class="form-group">
+              <label for="city">City / Town:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="city"
+                name="city"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="state">State:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="state"
+                name="state"
+                value="West Bengal"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="pin-code">Pin Code No:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="pin-code"
+                name="pin-code"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="country">Country:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="country"
+                name="country"
+                value="India"
+                readonly
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="nationality">Nationality:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="nationality"
+                name="nationality"
+                value="Indian"
+                readonly
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">E-mail:</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="mobile">Mobile No:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="mobile"
+                name="mobile"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="dob">Date of Birth:</label>
+              <input
+                type="date"
+                class="form-control"
+                id="dob"
+                name="dob"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="gender">Gender:</label>
+              <select class="form-control" id="gender" name="gender" required>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="others">Others</option>
+              </select>
+            </div>
+
+            <!-- Blood Group and ID Proof -->
+            <div class="form-group">
+              <label for="blood-group">Blood Group:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="blood-group"
+                name="blood-group"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="id-proof"
+                >Official ID Proof No.(Aadhar/Voter/Pan/DL):</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="id-proof"
+                name="id-proof"
+              />
+            </div>
+            <!-- Additional Fields -->
+            <div class="form-group">
+              <label for="organisation">Organisation:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="organisation"
+                name="organisation"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="unit">Unit:</label>
+              <input type="text" class="form-control" id="unit" name="unit" />
+            </div>
+
+            <div class="form-group">
+              <label for="designation">Designation:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="designation"
+                name="designation"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="emergency-contact-name"
+                >Emergency Contact Name:</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="emergency-contact-name"
+                name="emergency-contact-name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="emergency-contact-no">Emergency Contact No.:</label>
+              <input
+                type="text"
+                class="form-control"
+                id="emergency-contact-no"
+                name="emergency-contact-no"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="fees">Fees:</label>
+              <input
+                type="number"
+                class="form-control"
+                id="fees"
+                name="fees"
+                value="200"
+                readonly
+              />
+            </div>
+
+            <!-- Submit Button -->
+            <button type="submit" class="btn btn-danger btn-block">
+              Submit Application
+            </button>
+          </form>
+          <!-- End of Form -->
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
